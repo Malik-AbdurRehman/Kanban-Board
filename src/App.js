@@ -4,13 +4,48 @@ import Tiles from "./tiles";
 
 function App() {
   const tasks = [
-    { id: 1, title: "Backlog 1", text: "This is Backlog 1", class: "Backlog" },
-    { id: 6, title: "Backlog 2", text: "This is Backlog 2", class: "Backlog" },
-    { id: 2, title: "Doing 1", text: "This is Doing 1", class: "Doing" },
-    { id: 7, title: "Doing 2", text: "This is Doing 2", class: "Doing" },
-    { id: 3, title: "Review 1", text: "This is Review 1", class: "Review" },
-    { id: 4, title: "Done 1", text: "This is Done 1", class: "Done" },
-    { id: 5, title: "Done 2", text: "This is Done 2", class: "Done" },
+    {
+      id: 1,
+      title: "Research API",
+      text: "Explore available APIs for weather data",
+      class: "Backlog",
+    },
+    {
+      id: 2,
+      title: "Create Wireframes",
+      text: "Design rough layout for user dashboard",
+      class: "Backlog",
+    },
+    {
+      id: 3,
+      title: "Implement Login",
+      text: "Create login form with validation",
+      class: "Doing",
+    },
+    {
+      id: 4,
+      title: "Set up Firebase",
+      text: "Connect project to Firebase for auth and DB",
+      class: "Doing",
+    },
+    {
+      id: 5,
+      title: "UI Cleanup",
+      text: "Check margin and padding consistency",
+      class: "Review",
+    },
+    {
+      id: 6,
+      title: "Project Setup",
+      text: "Initialized project structure and dependencies",
+      class: "Done",
+    },
+    {
+      id: 7,
+      title: "GitHub Repo Created",
+      text: "Set up Kanban_Board repository on GitHub",
+      class: "Done",
+    },
   ];
 
   return (
